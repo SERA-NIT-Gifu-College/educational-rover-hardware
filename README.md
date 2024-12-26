@@ -6,7 +6,7 @@
 
 ## ピン配置
 
-### DRV8835
+### DRV8835 (Motor Driver)
 
 | Part/Leg | Raspberry Pi GPIO |
 | --- | --- |
@@ -14,6 +14,26 @@
 | AIN2 | 23 |
 | BIN1 | 24 |
 | BIN2 | 25 |
+
+### SSD1306 (OLED Display)
+
+| Part/Leg | Raspberry Pi GPIO |
+| --- | --- |
+| SDA | 2 |
+| SCL | 3 |
+| VCC | 1 |
+| GND | (GND) |
+
+### BMX055 (9 Axes Sensor)
+
+| Part/Leg | Raspberry Pi GPIO |
+| --- | --- |
+| SDA | 2 |
+| SCL | 3 |
+| VCC | 1 |
+| VCCIO | X |
+| 3V3 | 1 |
+| GND | (GND) |
 
 ### LEDs
 
